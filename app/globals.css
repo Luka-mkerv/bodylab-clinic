@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Manrope:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand-purple: #8B6FA8;
+  --brand-purple-light: #A48BBF;
+  --brand-purple-pale: #E8DFF0;
+  --brand-blush: #F5C9B8;
+  --brand-blush-light: #FAE8E0;
+  --brand-cream: #FAF8F5;
+  --brand-warm: #F5F1EC;
+  --text-dark: #2C2A2E;
+  --text-mid: #5C5766;
+  --text-soft: #8B8494;
+  --text-muted: #B5AFBC;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--brand-cream);
+  color: var(--text-dark);
+  font-family: 'Manrope', sans-serif;
+}
+
+.font-display {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+/* Section label style */
+.section-label {
+  font-family: 'Manrope', sans-serif;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--brand-purple);
+}
+
+/* Elegant divider */
+.divider-line {
+  width: 40px;
+  height: 1px;
+  background: var(--brand-purple);
+  display: inline-block;
+}
+
+/* Smooth image hover */
+.img-hover {
+  transition: transform 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.img-hover:hover {
+  transform: scale(1.03);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--brand-cream);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--brand-purple-pale);
+  border-radius: 3px;
+}
+
+/* Input focus styles */
+input:focus, textarea:focus, select:focus {
+  outline: none;
+  border-color: var(--brand-purple) !important;
+}
+
+/* Georgian font support */
+@font-face {
+  font-family: 'Manrope';
+  unicode-range: U+10D0-10FF, U+2D00-2D2F;
+}
