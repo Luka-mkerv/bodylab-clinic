@@ -96,7 +96,7 @@ export default function ServicesSection() {
             href="#contact"
             className="self-start md:self-auto text-sm font-semibold text-brand-purple border border-brand-purple/30 px-6 py-3 rounded-full hover:bg-brand-purple hover:text-white transition-all duration-300 tracking-wide whitespace-nowrap"
           >
-            {t({ en: "Book a Treatment", ka: "პროცედურის ჩაწერა" })}
+            {t({ en: "Book a Treatment", ka: "პროცედურაზე ჩაწერა" })}
           </a>
         </div>
 
