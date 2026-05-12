@@ -53,7 +53,7 @@ export const nav = {
       { label: "Contact", href: "#contact" },
     ],
     ka: [
-      { label: "ჩვენს შესახებ", href: "#about" },
+      { label: "ჩვენ შესახებ", href: "#about" },
       { label: "სერვისები", href: "#services" },
       { label: "გალერეა", href: "#gallery" },
       { label: "კონტაქტი", href: "#contact" },
@@ -255,7 +255,7 @@ export const contact = {
   },
   headline: {
     en: "Book Your\nConsultation",
-    ka: "ჩაიწერეთ\nკონსულტაციაზე",
+    ka: "ჩაეწერეთ\nკონსულტაციაზე",
   },
   subtext: {
     en: "Take the first step. We'll respond within a few hours.",
