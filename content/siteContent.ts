@@ -128,7 +128,7 @@ export const services = {
         en: "Facial contouring and rejuvenation using advanced, medical-grade techniques",
         ka: "სახის კონტურების კორექცია და გაახალგაზრდავება უსაფრთხო, წამყვანი მეთოდებით",
       },
-      image: "/injection.jpg",
+      image: "/Injection.jpg",
     },
     {
       id: "skin-treatments",
@@ -137,7 +137,7 @@ export const services = {
         en: "Enhancing shape and volume to highlight your unique features",
         ka: "ფორმისა და მოცულობის კორექცია ინდივიდუალური ნაკვთების ხაზგასასმელად",
       },
-      image: "/lipp.jpg",
+      image: "/Lipp.jpg",
     },
     {
       id: "laser",
@@ -155,7 +155,7 @@ export const services = {
         en: "Anti-cellulite massage and pressotherapy for sculpting and detoxifying the body",
         ka: "ანტიცელულიტური მასაჟები და პრესოთერაპია სხეულის სრულყოფილი ფორმებისთვის",
       },
-      image: "/massg.jpg",
+      image: "/Massg.jpg",
     },
     {
       id: "facial-aesthetics",
