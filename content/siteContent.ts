@@ -217,27 +217,27 @@ export const gallery = {
   images: [
     {
       id: 1,
-      src: "/22.jpg",
+      src: "/22.png",
       alt: { en: "Clinic reception", ka: "კლინიკის მიმღები" },
     },
     {
       id: 2,
-      src: "/22.jpg",
+      src: "/22.png",
       alt: { en: "Treatment room", ka: "პროცედურათა ოთახი" },
     },
     {
       id: 3,
-      src: "/22.jpg",
+      src: "/22.png",
       alt: { en: "Aesthetic treatment", ka: "ესთეტიკური პროცედურა" },
     },
     {
       id: 4,
-      src: "/22.jpg",
+      src: "/22.png",
       alt: { en: "Clinic atmosphere", ka: "კლინიკის ატმოსფერო" },
     },
     {
       id: 5,
-      src: "/22.jpg",
+      src: "/22.png",
       alt: { en: "Premium products", ka: "პრემიუმ პროდუქცია" },
     },
     {
