@@ -102,7 +102,7 @@ export const about = {
   },
   body: {
     en: "Body Lab was founded on a single belief: that aesthetic medicine should feel as elevated as it looks. Every treatment is carefully designed around your individual goals — never generic, always intentional.",
-    ka: "Body Lab-ში სილამაზე და მეცნიერება განუყოფელია. ჩვენ არ ვცვლით ადამიანს — ჩვენ ვხვეწთ დეტალებს, რათა მივიღოთ შედეგი, რომელიც არის ბუნებრივი, ზუსტი და უზადო.",
+    ka: "Body Lab-ში სილამაზე და მეცნიერება განუყოფელია. ჩვენ არ ვცვლით ადამიანს — ჩვენ ვხვეწთ დეტალებს, რათა მივიღოთ შედეგი, რომელიც არის ბუნებრივი, ზუსტი და უნაკლო.",
   },
   stats: [
     { value: "500+", label: { en: "Happy Clients", ka: "კმაყოფილი კლიენტი" } },
